@@ -1,0 +1,26 @@
+{
+    "name": "baloney",
+    "displayName": "baloney",
+    "description": "BaloneyScript Syntax Highlighter",
+    "version": "0.0.1",
+    "publisher": "baloney-com",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "baloney",
+            "aliases": ["BaloneyScript", "baloney"],
+            "extensions": [".bs"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "baloney",
+            "scopeName": "source.baloney",
+            "path": "./syntaxes/baloney.tmLanguage.json"
+        }]
+    }
+}

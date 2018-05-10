@@ -1,0 +1,11 @@
+my_variable is a number with a value of 1
+my_second_variable is a number with a value of 2
+increment my_variable
+if the value of my_variable is equal to my_second_variable
+print "hooray\n"
+add 5 to my_second_variable
+add 10 to my_variable
+subtract 5 to my_variable
+if the value of my_second_variable is equal to my_variable
+print "hooray again!\n"
+subtract 5 to my_second_variable
