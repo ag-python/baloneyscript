@@ -3,6 +3,10 @@ An absurdly verbose script language.
 
 This is primarily a demo of the ``lark`` parser module in Python
 
+This package includes a Visual Studio Code plugin for syntax highlighting.
+
+The compiler generates **statically linked standalone binaries**.
+
 ## Variable assignment
 
 ### Numberish
@@ -37,4 +41,18 @@ add 5 to the value of my_variable
 
 ```
 subtract 5 to my_variable
+```
+
+## Printing
+
+Print a string literal, only with double-quotes
+
+```
+print "hello world"
+```
+
+Or, print the value of a variable
+
+```
+print the value of my_variable
 ```
